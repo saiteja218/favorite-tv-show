@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+p, li{
+    font-size: 1.28rem;
+}
+body{
+    background-color: rgb(148, 107, 187);
+}
+div p{
+    text-align: center;
+    margin: 15px;
+}
+#para{font-size: 1.28rem;
+text-align: center;}
+h1{
+
+    padding: 15px;
+    text-align: center;
+}
+main{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.mainList {
+    background-color: rgb(109, 49, 164);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.sub li a{
+    text-decoration: none !important;
+    color: black;
+}
+.sub li{
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+.sub{
+    padding: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    
+}
+img{
+    width: 18rem;
+    height: 25rem;
+    border-radius: 5px;
+    box-shadow: 4px 6px rgb(186, 136, 136);
+}
+
+main ul{
+    
+    width: 100%;
+    list-style: none;
+}
