@@ -28,20 +28,34 @@ p{
 }
 h1{text-align: center;
 padding: 20px;}
-img{
-    display: block;
-    padding: 20px;
-    margin: 10px;
-    margin-top: 25px;
-    width: 20rem;
-    height: 24rem;
-    margin: auto;
 
-}
 main{
     width: 70%;
     margin: auto;
     border: 3px solid black;
     border-radius: 25px;
     box-shadow:  5px 5px;
+}
+img{
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 25px;
+    width: 15rem;
+    height: 20rem;
+    margin: auto;
+
+}
+
+@media screen and (min-width:700px) {
+    img{
+        display: block;
+        padding: 20px;
+        margin: 10px;
+        margin-top: 25px;
+        width: 20rem;
+        height: 24rem;
+        margin: auto;
+    
+    }
 }
